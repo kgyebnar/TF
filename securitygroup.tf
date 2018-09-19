@@ -44,8 +44,7 @@ tags
     }
 }
 
-
-# Some securite group aw well...
+# Some securite group as well...
 resource "aws_security_group" "allow-filters" {
   vpc_id = "${aws_vpc.main.id}"
   name = "inbound-filters"
@@ -91,7 +90,6 @@ tags {
   }
 
 }
-
 
 resource "aws_security_group" "allow-filters2" {
   vpc_id = "${aws_vpc.main.id}"
