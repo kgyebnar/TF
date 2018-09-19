@@ -6,7 +6,6 @@ resource "aws_vpc_dhcp_options" "dns_resolvers" {
         Name = "DHCPoptions"
     }
 }
-
 // associate DHCP options with the VPC
 resource "aws_vpc_dhcp_options_association" "dns_resolvers" {
   vpc_id = "${aws_vpc.main.id}"

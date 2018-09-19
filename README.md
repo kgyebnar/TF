@@ -1,3 +1,3 @@
 # TF
-Terraform example tamplates
+AWS Terraform example tamplates
 keys and sensible informations removed
